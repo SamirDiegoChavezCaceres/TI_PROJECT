@@ -304,6 +304,7 @@ const data = [
       $("#volume").css("display", "none");
     }
 
+    /* DO SOMETHING WITH THE AIRPLANE */
     addObject(data, config.currentId, 1);
 
     helpBtn.click(function(e) {
