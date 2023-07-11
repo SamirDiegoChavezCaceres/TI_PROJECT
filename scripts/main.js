@@ -141,7 +141,7 @@ const data = [
     mtlAsset: "nest_asset_mtl",
     scale: "0.5 0.5 0.5",
     scaleOne: "0.7 0.7 0.7",
-    scaleOne: "0.9 0.9 0.9",
+    scaleTwo: "0.9 0.9 0.9",
     isObj: true
   },
   {
