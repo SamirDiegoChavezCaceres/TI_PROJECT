@@ -469,7 +469,7 @@ const data = [
         " for " +
         data[config.currentId].description;
       let msg = new SpeechSynthesisUtterance();
-      msg.lang = "en-US";
+      msg.lang = "es-PE";
       msg.rate = 8 / 10;
       msg.pitch = 1;
       msg.text = text;
