@@ -2,94 +2,91 @@ const data = [
   {
     id: 1,
     title: "A",
-    description: "Airplane",
-    objAsset: "airplane_asset_obj",
-    mtlAsset: "airplane_asset_mtl",
-    scale: "2 2 2",
-    scaleOne: "6 6 6",
-    scaleTwo: "8 8 8",
-    isObj: true
+    description: "Avion",
+    assetId: "airplane_asset",
+    scale: "0.10 0.10 0.10",
+    scaleOne: "0.13 0.13 0.13",
+    scaleTwo: "0.15 0.15 0.15",
+    isObj: false
   },
   {
     id: 2,
     title: "B",
-    description: "Boat",
+    description: "Barco",
     assetId: "boat_asset",
     scale: "4 4 4",
-    scaleOne: "6 6 6",
-    scaleTwo: "8 8 8",
+    scaleOne: "5 5 5",
+    scaleTwo: "6 6 6",
     isObj: false
   },
   {
     id: 3,
     title: "C",
-    description: "Cow",
-    assetId: "cow_asset",
-    scale: "0.1 0.1 0.1",
-    scaleOne: "0.15 0.15 0.15",
-    scaleTwo: "0.17 0.17 0.17",
+    description: "Celular", 
+    assetId: "iphone_asset",
+    scale: "0.4 0.4 0.4",
+    scaleOne: "0.8 0.8 0.8",
+    scaleTwo: "1 1 1",
     isObj: false
   },
   {
     id: 4,
     title: "D",
-    description: "Deer",
-    assetId: "deer_asset",
-    scale: "0.8 0.8 0.8",
-    scaleOne: "0.9 0.9 0.9",
-    scaleTwo: "1.1 1.1 1.1",
+    description: "Dinosaurio", 
+    assetId: "dinosaur_asset",
+    scale: "0.4 0.4 0.4",
+    scaleOne: "0.6 0.6 0.6",
+    scaleTwo: "0.8 0.8 0.8",
     isObj: false
   },
   {
     id: 5,
     title: "E",
-    description: "Earth",
-    assetId: "earth_asset",
-    scale: "0.2 0.2 0.2",
-    scaleOne: "0.4 0.4 0.4",
-    scaleTwo: "0.6 0.6 0.6",
+    description: "Enano", 
+    assetId: "gnome_asset",
+    scale: "0.010 0.010 0.010",
+    scaleOne: "0.015 0.015 0.015",
+    scaleTwo: "0.02 0.02 0.02",
     isObj: false
   },
   {
     id: 6,
     title: "F",
-    description: "Flower",
+    description: "Flor",
     assetId: "flower_asset",
     scale: "0.09 0.09 0.09",
-    scaleOne: "0.1 0.1 0.1",
-    scaleTwo: "0.12 0.12 0.12",
+    scaleOne: "0.11 0.11 0.11",
+    scaleTwo: "0.13 0.13 0.13",
     isObj: false
   },
   {
     id: 7,
     title: "G",
-    description: "Goat",
-    objAsset: "goat_asset_obj",
-    mtlAsset: "goat_asset_mtl",
-    scale: "0.009 0.009 0.009",
-    scaleOne: "0.014 0.014 0.014",
-    scaleTwo: "0.016 0.016 0.016",
-    isObj: true
+    description: "Gorila", 
+    assetId: "gorilla_asset",
+    scale: "9 9 9",
+    scaleOne: "10 10 10",
+    scaleTwo: "11 11 11",
+    isObj: false
   },
   {
     id: 8,
     title: "H",
-    description: "Headphone",
-    objAsset: "headphone_asset_obj",
-    mtlAsset: "headphone_asset_mtl",
-    scale: "0.02 0.02 0.02",
-    scaleOne: "0.04 0.04 0.04",
-    scaleTwo: "0.06 0.06 0.06",
-    isObj: true
+    description: "Hamburguesa", 
+    assetId: "hamburguer3_asset",
+    scale: "1.5 1.5 1.5",
+    scaleOne: "1.7 1.7 1.7",
+    scaleTwo: "1.9 1.9 1.9",
+    isObj: false
   },
   {
     id: 9,
     title: "I",
-    description: "Iphone",
-    assetId: "iphone_asset",
-    scale: "0.6 0.6 0.6",
-    scaleOne: "0.8 0.8 0.8",
-    scaleTwo: "1 1 1",
+    description: "Iglesia", 
+    assetId: "church_asset",
+    scale: "0.08 0.08 0.08",
+    scaleOne: "0.10 0.10 0.10",
+    scaleTwo: "0.12 0.12 0.12",
     isObj: false
   },
   {
@@ -97,46 +94,45 @@ const data = [
     title: "J",
     description: "Jaguar",
     assetId: "jaguar_asset",
-    scale: "0.02 0.02 0.02",
+    scale: "0.01 0.01 0.01",
     scaleOne: "0.03 0.03 0.03",
-    scaleTwo: "0.04 0.04 0.04",
+    scaleTwo: "0.05 0.05 0.05",
     isObj: false
   },
   {
     id: 11,
     title: "K",
-    description: "Knife",
-    assetId: "knife_asset",
-    scale: "0.09 0.09 0.09",
-    scaleOne: "0.1 0.1 0.1",
-    scaleTwo: "0.13 0.13 0.13",
+    description: "Kiwi", 
+    assetId: "kiwi_fruit_asset",
+    scale: "6 6 6",
+    scaleOne: "7 7 7",
+    scaleTwo: "8 8 8",
     isObj: false
   },
   {
     id: 12,
     title: "L",
-    description: "Lion",
-    assetId: "lion_asset",
-    scale: "0.01 0.01 0.01",
-    scaleOne: "0.012 0.012 0.012",
-    scaleTwo: "0.013 0.013 0.013",
+    description: "Loro",
+    assetId: "parrot2_asset",
+    scale: "0.8 0.8 0.8",
+    scaleOne: "0.10 0.10 0.10",
+    scaleTwo: "0.12 0.12 0.12",
     isObj: false
   },
   {
     id: 13,
     title: "M",
-    description: "Monkey",
-    objAsset: "monkey_asset_obj",
-    mtlAsset: "monkey_asset_mtl",
-    scale: "0.5 0.5 0.5",
-    scaleOne: "0.6 0.6 0.6",
-    scaleTwo: "0.9 0.9 0.9",
-    isObj: true
+    description: "Moto", 
+    assetId: "motorcycle_asset",
+    scale: "0.04 0.04 0.04",
+    scaleOne: "0.06 0.06 0.06",
+    scaleTwo: "0.08 0.08 0.08",
+    isObj: false
   },
   {
     id: 14,
     title: "N",
-    description: "Nest",
+    description: "Nido",
     objAsset: "nest_asset_obj",
     mtlAsset: "nest_asset_mtl",
     scale: "0.5 0.5 0.5",
@@ -147,39 +143,38 @@ const data = [
   {
     id: 15,
     title: "O",
-    description: "Octopus",
+    description: "Ovni", 
+    assetId: "ovni_asset",
+    scale: "0.1 0.1 0.1",
+    scaleOne: "0.3 0.3 0.3",
+    scaleTwo: "0.5 0.5 0.5",
+    isObj: false
+  },
+  {
+    id: 16,
+    title: "P",
+    description: "Pulpo", 
     objAsset: "octopus_asset_obj",
     mtlAsset: "octopus_asset_mtl",
-    scale: "1.9 1.9 1.9",
+    scale: "1.8 1.8 1.8",
     scaleOne: "2 2 2",
     scaleTwo: "2.2 2.2 2.2",
     isObj: true
   },
   {
-    id: 16,
-    title: "P",
-    description: "Pencil",
-    assetId: "pencil_asset",
-    scale: "0.1 0.1 0.1",
-    scaleOne: "0.2 0.2 0.2",
-    scaleTwo: "0.3 0.3 0.3",
-    isObj: false
-  },
-  {
     id: 17,
     title: "Q",
-    description: "Qtip",
-    objAsset: "qtip_asset_obj",
-    mtlAsset: "qtip_asset_mtl",
-    scale: "1.4 1.4 1.4",
-    scaleOne: "1.9 1.9 1.9",
-    scaleTwo: "2.3 2.3 2.3",
-    isObj: true
+    description: "Queso", 
+    assetId: "chesse_asset",
+    scale: "0.2 0.2 0.2",
+    scaleOne: "0.4 0.4 0.4",
+    scaleTwo: "0.6 0.6 0.6",
+    isObj: false
   },
   {
     id: 18,
     title: "R",
-    description: "Rat",
+    description: "Raton", 
     assetId: "rat_asset",
     scale: "0.5 0.5 0.5",
     scaleOne: "0.7 0.7 0.7",
@@ -190,52 +185,49 @@ const data = [
   {
     id: 19,
     title: "S",
-    description: "Snake",
-    //assetId: 'scissor_asset',
-    objAsset: "snake_asset_obj",
-    mtlAsset: "snake_asset_mtl",
-    scale: "0.05 0.05 0.05",
-    scaleOne: "0.4 0.4 0.4",
-    scaleTwo: "0.6 0.6 0.6",
+    description: "Sombrilla",
+    objAsset: "umbrella_asset_obj",
+    mtlAsset: "umbrella_asset_mtl",
+    scale: "0.010 0.010 0.010",
+    scaleOne: "0.013 0.013 0.013",
+    scaleTwo: "0.015 0.15 0.015",
     isObj: true
   },
   {
     id: 20,
     title: "T",
-    description: "Telescope",
+    description: "Telescopio",
     objAsset: "telescope_asset_obj",
     mtlAsset: "telescope_asset_mtl",
-    scale: "1.8 1.8 1.8",
-    scaleOne: "2 2 2",
-    scaleTwo: "2.2 2.2 2.2",
+    scale: "1 1 1",
+    scaleOne: "1.25 1.25 1.25",
+    scaleTwo: "1.5 1.5 1.5",
     isObj: true
   },
   {
     id: 21,
     title: "U",
-    description: "Umbrella",
-    objAsset: "umbrella_asset_obj",
-    mtlAsset: "umbrella_asset_mtl",
-    scale: "0.010 0.010 0.010",
-    scaleOne: "0.015 0.015 0.015",
-    scaleTwo: "0.017 0.17 0.017",
-    isObj: true
+    description: "Uva", 
+    assetId: "grape_asset",
+    scale: "0.05 0.05 0.05",
+    scaleOne: "0.07 0.07 0.07",
+    scaleTwo: "0.09 0.09 0.09",
+    isObj: false
   },
   {
     id: 22,
     title: "V",
-    description: "Van",
-    assetId: "van_asset",
-    scale: "6 6 6",
-    scaleOne: "7 7 7 ",
-    scaleTwo: "8 8 8",
-    isObj: false
+    description: "Venado", 
+    assetId: "deer_asset", 
+    scale: "0.4 0.4 0.4",
+    scaleOne: "0.6 0.6 0.6",
+    scaleTwo: "0.8 0.8 0.8",
   },
   {
     id: 23,
     title: "W",
-    description: "Whale",
-    assetId: "whale_asset",
+    description: "Waffle", 
+    assetId: "waffle_asset",
     scale: "0.5 0.5 0.5",
     scaleOne: "0.7 0.7 0.7",
     scaleTwo: "1 1 1",
@@ -245,35 +237,32 @@ const data = [
   {
     id: 24,
     title: "X",
-    description: "Xmas",
-    objAsset: "xmas_asset_obj",
-    mtlAsset: "xmas_asset_mtl",
-    scale: "2.0 2.0 2.0",
-    scaleOne: "2.5 2.5 2.5",
-    scaleTwo: "2.8 2.8 2.8",
-    isObj: true
+    description: "Xilofono", 
+    assetId: "xylophone_asset",
+    scale: "0.025 0.025 0.025",
+    scaleOne: "0.05 0.05 0.05",
+    scaleTwo: "0.075 0.075 0.075",
+    isObj: false
   },
   {
     id: 25,
     title: "Y",
-    description: "Yolk",
-    objAsset: "yolk_asset_obj",
-    mtlAsset: "yolk_asset_mtl",
-    scale: "0.03 0.03 0.03",
-    scaleOne: "0.05 0.05 0.05",
-    scaleTwo: "0.07 0.07 0.07",
-    isObj: true
+    description: "Yuca", 
+    assetId: "yuca_asset",
+    scale: "0.5 0.5 0.5",
+    scaleOne: "0.7 0.7 0.7",
+    scaleTwo: "0.9 0.9 0.9",
+    isObj: false
   },
   {
     id: 26,
     title: "Z",
-    description: "Zebra",
-    objAsset: "zebra_asset_obj",
-    mtlAsset: "zebra_asset_mtl",
-    scale: "0.1 0.1 0.1 ",
-    scaleOne: "0.3 0.3 0.3",
-    scaleTwo: "0.5 0.5 0.5",
-    isObj: true
+    description: "Zanahoria", 
+    assetId: "carrot_asset",
+    scale: "0.0025 0.0025 0.0025",
+    scaleOne: "0.005 0.005 0.005",
+    scaleTwo: "0.0075 0.0075 0.0075",
+    isObj: false
   }
 ];
 
@@ -290,13 +279,15 @@ const data = [
       currentId: 0,
       prev: 0
     };
-    var rotateBtn = $(".rotate"),
+    var initBtn = $(".init"),
+      rotateBtn = $(".rotate"),
       scaleBtn = $(".scale"),
       gotitBtn = $(".gotit"),
       prevBtn = $(".prev"),
       nextBtn = $(".next"),
       volumeBtn = $("#volume"),
-      helpBtn = $(".help");
+      helpBtn = $(".help"),
+      btnswrap = $(".btns-wrap").hide();
 
     if (!("speechSynthesis" in window)) {
       // Synthesis support. show volume button
@@ -304,8 +295,12 @@ const data = [
       $("#volume").css("display", "none");
     }
 
-    /* DO SOMETHING WITH THE AIRPLANE */
-    addObject(data, config.currentId, 1);
+    initBtn.click(function() {
+      /* DO SOMETHING WITH THE AIRPLANE */
+      addObject(data, config.currentId, 1);
+      btnswrap.show();
+      initBtn.hide();
+    })
 
     helpBtn.click(function(e) {
       e.preventDefault();
@@ -466,10 +461,14 @@ const data = [
       if (!config.isVolume) return;
       let text =
         data[config.currentId].title +
-        " for " +
-        data[config.currentId].description;
+        " de "; 
+      if (data[config.currentId].description == "Waffle")
+        text = text + "guafle";
+      else 
+        text = text + data[config.currentId].description;
+      
       let msg = new SpeechSynthesisUtterance();
-      msg.lang = "en-US";
+      msg.lang = "es-PE";
       msg.rate = 8 / 10;
       msg.pitch = 1;
       msg.text = text;
