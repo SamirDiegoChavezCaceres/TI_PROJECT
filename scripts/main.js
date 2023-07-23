@@ -279,13 +279,15 @@ const data = [
       currentId: 0,
       prev: 0
     };
-    var rotateBtn = $(".rotate"),
+    var initBtn = $(".init"),
+      rotateBtn = $(".rotate"),
       scaleBtn = $(".scale"),
       gotitBtn = $(".gotit"),
       prevBtn = $(".prev"),
       nextBtn = $(".next"),
       volumeBtn = $("#volume"),
-      helpBtn = $(".help");
+      helpBtn = $(".help"),
+      btnswrap = $(".btns-wrap").hide();
 
     if (!("speechSynthesis" in window)) {
       // Synthesis support. show volume button
@@ -293,8 +295,12 @@ const data = [
       $("#volume").css("display", "none");
     }
 
-    /* DO SOMETHING WITH THE AIRPLANE */
-    addObject(data, config.currentId, 1);
+    initBtn.click(function() {
+      /* DO SOMETHING WITH THE AIRPLANE */
+      addObject(data, config.currentId, 1);
+      btnswrap.show();
+      initBtn.hide();
+    })
 
     helpBtn.click(function(e) {
       e.preventDefault();
