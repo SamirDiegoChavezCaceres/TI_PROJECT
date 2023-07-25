@@ -302,17 +302,6 @@ const data = [
       initBtn.hide();
     })
 
-    helpBtn.click(function(e) {
-      e.preventDefault();
-      $("#video_demo")[0].style.display = "block";
-    });
-
-    gotitBtn.click(function() {
-      gotitBtn.parent().css({
-        display: "none"
-      });
-    });
-
     rotateBtn.click(function() {
       if (rotateBtn.hasClass("rotate_fade")) {
         config.currentObject.emit("endRotate");
